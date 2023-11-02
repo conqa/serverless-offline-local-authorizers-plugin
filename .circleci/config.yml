@@ -49,7 +49,7 @@ jobs:
           command: mkdir -p dist
       - run:
           name: build
-          command: npm tsc
+          command: npm run tsc
       - persist_to_workspace:
           root: *workspace
           paths:
