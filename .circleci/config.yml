@@ -71,7 +71,7 @@ jobs:
             ssh-keyscan -H github.com >> ~/.ssh/known_hosts
       - run:
           name: publish
-          command: npm publish
+          command: npm publish ./dist
 
 workflows:
   untagged-build:
