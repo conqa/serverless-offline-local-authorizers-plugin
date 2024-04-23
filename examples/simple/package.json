@@ -4,9 +4,9 @@
   "devDependencies": {
     "@types/aws-lambda": "^8.10.56",
     "@types/node": "^10.17.29",
-    "aws-sdk": "^2.814.0",
+    "aws-sdk": "^2.1604.0",
     "serverless": "^3.2.0",
-    "serverless-offline": "^8.4.0"
+    "serverless-offline": "^13.3.4"
   },
   "author": "Nicolai Lang <hi@nlang.de>",
   "license": "MIT",
